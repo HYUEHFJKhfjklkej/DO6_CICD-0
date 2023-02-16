@@ -1,6 +1,6 @@
 #!/bin/bash
-TELEGRAM_BOT_TOKEN="5944531048:AAFfq70dTAkHmpweaW_sYIBm7xD6z2c1XDA"
-TELEGRAM_USER_ID="473433845"
+TELEGRAM_BOT_TOKEN="ага щас прям и дал вас свой токен"
+TELEGRAM_USER_ID="и ади тоже дал бы"
 TIME=8
 URL="https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage"
 TEXT="Deploy status: $1%0A%0AProject:+$CI_PROJECT_NAME%0AJOB_STAGE:$CI_JOB_STAGE
